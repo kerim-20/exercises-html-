@@ -1,0 +1,59 @@
+/* Univerzalni selektor */
+*{
+    font-size: 14px;
+}
+/* Opći selektor*/
+h1{
+    font-size: 20px;
+}
+/* ID-selektor*/
+#prvi-id{
+    font-size: 18px;
+}
+/* CLASS selektor*/
+.drugi{
+    font-size: 16px;
+}
+.plava{
+    color: #2ea3fa; 
+}
+.bold{
+    font-weight: bold;
+}
+/* Nasljedni selektor*/
+p span{
+    background-color: #b30b0b;
+    padding: 10px;
+    color: #FFF;
+    display: block;
+    text-align: center;
+}
+p>span{
+    background-color: #2ea3f2;
+}
+/* Srodni selektor */
+h1~p{
+    background-color: rgb(62, 131, 62);
+    color: rgb(255, 255, 255)!important;
+}
+/* Neposredni srodni selektor */
+h1+p{
+    background-color: rgb(255, 118,118);
+}
+/* Neposredni srodni i ID*/
+#novi-span+a{
+    font-size: 30px;
+}
+/* Srodni i klade*/
+a~.novi-paragraf{
+    text-align: center;
+}
+/* Nasljedni i univerzalni*/
+ul li{
+    background-color: black;
+    color: white;
+}
+/* Ulazak dublje u strukturu*/
+ul li a{
+    color:#b30b0b;
+}

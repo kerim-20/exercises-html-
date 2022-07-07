@@ -1,0 +1,59 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    font-size: 18px;
+}
+p{
+    font-size: 14px;
+}
+
+.header-section{
+    background-color:silver;
+    display: flex;
+}
+
+.header-section .logo-subsection{
+    width: 20%;
+}
+
+.header-section .logo-subsection .logo-item{
+    display: block;
+}
+
+.header-section .logo-subsection .logo-item img{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.header-section .menu-subsection{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-section .menu-subsection .menu-item ul{
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header-section .menu-subsection .menu-item ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.header-section.menu-subsection a{
+    text-decoration: none;
+    color: #FFF;
+    background: #333;
+    display: inline-block;
+    padding: 15px 25px;
+    min-width: 80px;
+    text-align: center ;
+}
